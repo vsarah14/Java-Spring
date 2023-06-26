@@ -1,0 +1,8 @@
+package com.example.assignment2.repository;
+
+import com.example.assignment2.model.Assignment;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
+
+public interface AssignmentRepository extends JpaRepository<Assignment, Integer>, CrudRepository<Assignment, Integer> {
+}
